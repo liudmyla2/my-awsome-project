@@ -87,6 +87,18 @@ p {
     margin: 0;
 }
 
+.git-link {
+    margin-top: -60px;
+    margin-left: 260px;
+    color: white;
+}
+
+.git-hub-link {
+    color: rgb(58, 18, 190);
+    text-decoration: none;
+    font-weight: 700;
+}
+
 body {
     background-color: rgb(128, 181, 249);
     background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/080/180/original/desktop-1920x1080.jpg?1683085282);
