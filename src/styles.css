@@ -1,0 +1,95 @@
+.inner-container {
+    max-width: 800px;
+    margin: 80px auto;
+    border: 2px solid rgb(60, 60, 255);
+    padding: 40px;
+    background: rgb(185, 229, 255);
+    border-radius: 20px;
+}
+.current-weather {
+    position: relative;
+    display: inline-block;
+    left: 76%;
+    text-align: end;
+    top: -30px;
+
+}
+
+.description:first-letter {
+    text-transform: capitalize;
+}
+
+.card {
+    max-width: 150px;
+}
+
+.card:hover {
+    background: rgb(134, 223, 229);
+    cursor: pointer;
+}
+
+.card-text-img, .card-text, .card-title {
+    margin: 0;
+    text-align: center;
+}
+
+.card-title {
+    color: rgb(19, 82, 105);
+}
+
+.col {
+  justify-items: auto;
+
+}
+
+.card-text-img {
+    font-size: 40px;
+}
+
+.emoji {
+    font-size: 40px;
+    max-width: 60px;
+}
+
+.submit-button {
+   background-color:rgb(128, 200, 248);
+   border-radius: 10px;
+   color: white;
+   margin-left: 5px;
+}
+
+
+.submit-button:hover {
+    background: rgb(76, 76, 253);
+}
+
+.current-location-button {
+    background-color: cadetblue;
+    border-radius: 10px;
+    color: white;
+    margin-left: 5px;
+    padding: 1px 15px;
+}
+
+.current-location-button:hover {
+    background: rgb(52, 90, 92);
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(128, 181, 249);
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/080/180/original/desktop-1920x1080.jpg?1683085282);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
