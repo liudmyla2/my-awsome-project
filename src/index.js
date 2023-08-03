@@ -121,6 +121,12 @@ let weather = {
       windyElement.innerHTML = `Wind: ${updateWind} km/h`;
     }
     
+    function updateIcon(response) {
+      let updateIcon = response.data.weather[0].icon;
+      let iconElement = document.querySelector("#icon");
+      iconElement.innerHTML = updateIcon;
+    }
+    
     function showWeather(response) {
       let city = document.querySelector("h1");
       city.innerHTML = `Weather in ${response.data.name}`;
@@ -131,6 +137,7 @@ let weather = {
       updatePrecipitation(response);
       updateHumidity(response);
       updateWindSpeed(response);
+      updateIcon(response);
     }
     
     function searchCity(city) {
